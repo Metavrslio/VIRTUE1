@@ -301,8 +301,8 @@ header .btns {
 .bottomlogo {
   height: 50px;
   max-width: 50px;
-  margin-top: 260px;
-  margin-left: 53%;
+  margin-bottom: 85px;
+  margin-left: 49.5%;
   text-align: center;
   margin-right: 50%;
   transform: translate(-50%, -50%);
@@ -552,7 +552,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 2531px;
+  margin-top: 2431px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
