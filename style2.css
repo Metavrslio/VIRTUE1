@@ -179,10 +179,12 @@ header .img1 {
 
 .metaworld .vvs {
   position: absolute;
-  top: 1890px;
+  top: 1920px;
   justify-content: center;
-  margin-left: 48.75%;
+  margin-left: 50%;
   margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .artifacts {
@@ -227,7 +229,7 @@ header .img1 {
   position: absolute;
   top: 2270px;
   justify-content: center;
-  margin-left: 50.5%;
+  margin-left: 50%;
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -237,13 +239,74 @@ header .img1 {
   height: 250px;
 }
 
-.hype {
-  margin-top: 1365px;
-  height: 37px;
+.price2 {
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(77%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 1111px;
+  font-size: 1.2em;
+  font-family: inter;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  display: flex;
+}
+
+.price3 {
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(77%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 1441px;
+  font-size: 1.2em;
+  font-family: inter;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  z-index: 4555;
+  display: flex;
+}
+
+.price1 {
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(77%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 1771px;
+  font-size: 1.2em;
+  z-index: 5555;
+  font-family: inter;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  z-index: 4555;
+  display: flex;
+}
+
+/*.price4 {
+  position: absolute;
   margin-left: 50%;
   margin-right: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+
+  margin-top: 1771px;
+  font-size: 1.2em;
+  z-index: 5555;
+  font-family: inter;
+  font-weight: 100;
+  text-align: center;
+  color: white;
+  z-index: 4555;
+  display: flex;
+}*/
+
+.hype {
+  height: 25px;
+  padding-right: 7px;
 }
 
 .artifacts .artifact3 {
@@ -264,6 +327,7 @@ header .img1 {
   position: absolute;
   top: 2270px;
   width: 250px;
+  z-index: -5;
   object-fit: cover;
   justify-content: center;
   margin-left: 25%;
@@ -296,7 +360,7 @@ header .img1 {
   position: absolute;
   top: 2600px;
   justify-content: center;
-  margin-left: 50.5%;
+  margin-left: 50%;
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -344,7 +408,7 @@ header .img1 {
   width: 250px;
   object-fit: cover;
   justify-content: center;
-  margin-left: 50.5%;
+  margin-left: 50%;
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
