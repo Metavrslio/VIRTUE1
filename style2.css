@@ -164,13 +164,17 @@ header .img1 {
 }
 
 .metaworld .downArrow {
-  margin-top: 755px;
+  margin-top: 785px;
   z-index: 555;
-  height: 97px;
+  height: 70px;
   color: rgba(113, 113, 113, 0.317);
   margin-left: 48%;
-  margin-right: 50%;
-  overflow-x: hidden;
+  position: absolute;
+  text-align: center;
+  margin-right: auto;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
   animation: animateDown infinite 3.1s;
 }
 
@@ -384,7 +388,7 @@ a {
 
 .learnMore {
   position: absolute;
-  margin-left: 51%;
+  margin-left: 50%;
   margin-right: 50%;
   margin-top: 885px;
   z-index: 555;
