@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui {
+  width: 170px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-radius: 30px;
+  border-style: outset;
+  background: url(/images/vvbanner.gif);
+  border-color: lightgray;
+  text-transform: uppercase;
+  color: white;
+
+  font-family: "Inter", sans-serif;
+}
+
+.ui:hover {
+  background-image: url("/images/gift.gif");
+}
+
+header .img1 {
+  height: 150px;
+  margin-top: 60px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.city {
+  margin-top: 75px;
+  width: 100%;
+  max-width: 2000px;
+  height: auto;
+}
+
+.background p {
+  position: absolute;
+  margin-top: -700px;
+  font-family: inter;
+  margin-left: 50%;
+  margin-right: 50%;
+  font-size: 2em;
+  inline-size: 450px;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
