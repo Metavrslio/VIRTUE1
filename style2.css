@@ -235,6 +235,7 @@ header .img1 {
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
   border-style: outset;
+  border-width: 1px;
   border-color: gray;
   height: 250px;
 }
@@ -319,6 +320,7 @@ header .img1 {
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
   border-style: outset;
+  border-width: 1px;
   border-color: gray;
   height: 250px;
 }
@@ -336,6 +338,7 @@ header .img1 {
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
   border-style: outset;
+  border-width: 1px;
   border-color: gray;
   height: 250px;
 }
@@ -352,6 +355,7 @@ header .img1 {
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
   border-style: outset;
+  border-width: 1px;
   border-color: gray;
   height: 250px;
 }
@@ -367,6 +371,7 @@ header .img1 {
   border-radius: 20px;
   border-style: outset;
   border-color: gray;
+  border-width: 1px;
   height: 250px;
 }
 
@@ -382,6 +387,7 @@ header .img1 {
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
   border-style: outset;
+  border-width: 1px;
   border-color: gray;
   height: 250px;
 }
@@ -399,6 +405,7 @@ header .img1 {
   border-radius: 20px;
   border-style: outset;
   border-color: gray;
+  border-width: 1px;
   height: 250px;
 }
 
@@ -415,6 +422,7 @@ header .img1 {
   border-radius: 20px;
   border-style: outset;
   border-color: gray;
+  border-width: 1px;
   height: 250px;
 }
 
@@ -434,6 +442,7 @@ a {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   border-radius: 20px;
+  border-width: 1px;
   border-style: outset;
   border-color: gray;
   height: 250px;
