@@ -164,18 +164,18 @@ header .img1 {
 }
 
 .metaworld .downArrow {
-  margin-top: 800px;
+  margin-top: 755px;
   z-index: 555;
   height: 97px;
   color: rgba(113, 113, 113, 0.317);
   margin-left: 48%;
   margin-right: 50%;
   overflow-x: hidden;
-  animation: animateDown infinite 2.1s;
+  animation: animateDown infinite 3.1s;
 }
 
 .metaworld .downArrow2 {
-  margin-top: -70px;
+  margin-top: -75px;
   z-index: 555;
   height: 97px;
   color: rgb(255, 255, 255);
@@ -186,7 +186,7 @@ header .img1 {
   /*position: absolute;*/
   display: block;
   overflow-x: hidden;
-  animation: animateDown infinite 2.1s;
+  animation: animateDown infinite 3.1s;
 }
 
 .metaDesc {
@@ -380,6 +380,20 @@ a {
   border-style: outset;
   border-color: gray;
   height: 250px;
+}
+
+.learnMore {
+  position: absolute;
+  margin-left: 51%;
+  margin-right: 50%;
+  margin-top: 885px;
+  z-index: 555;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  font-family: inter;
+  inline-size: 200px;
+  text-align: center;
 }
 
 @keyframes animateDown {
