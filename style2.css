@@ -163,36 +163,6 @@ header .img1 {
   transform: translate(-50%, -50%);
 }
 
-.metaworld .downArrow {
-  margin-top: 785px;
-  z-index: 555;
-  height: 70px;
-  color: rgba(113, 113, 113, 0.317);
-  margin-left: 48.5%;
-  position: absolute;
-  text-align: center;
-  margin-right: auto;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-
-  animation: animateDown infinite 3.1s;
-}
-
-.metaworld .downArrow2 {
-  margin-top: -75px;
-  z-index: 555;
-  height: 97px;
-  color: rgb(255, 255, 255);
-  margin-left: 48%;
-  margin-right: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  /*position: absolute;*/
-  display: block;
-  overflow-x: hidden;
-  animation: animateDown infinite 3.1s;
-}
-
 .metaDesc {
   font-family: "Inter";
   inline-size: 750px;
@@ -405,11 +375,27 @@ a {
   height: 250px;
 }
 
+.downArrow {
+  margin-top: -10px;
+  z-index: 555;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  animation: animateDown infinite 3.1s;
+}
+
 .learnMore {
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
-  margin-top: 885px;
+  margin-top: 875px;
+  display: flex;
+
   z-index: 555;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
