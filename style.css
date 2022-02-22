@@ -23,6 +23,10 @@ header {
   font-family: "Inter";
   font-size: 1.35em;
   display: flex;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1400px;
   align-items: center;
   justify-content: space-between;
   font-weight: 650;
@@ -136,18 +140,16 @@ header .btns {
   width: 100%;
 }
 
-.img-container {
-  position: relative;
-}
-
 .img-container .top {
   position: absolute;
-  top: 40%;
+  top: 450px;
   left: 50%;
   width: 50%;
   transform: translate(-50%, -50%);
-  height: 600;
-  width: 600px;
+  height: auto;
+  max-height: 600px;
+  max-width: 600px;
+  width: 100%;
 
   display: flex;
   justify-content: center;
@@ -160,7 +162,7 @@ header .btns {
   padding-right: 30px;
   padding-top: 9px;
   padding-bottom: 12px;
-  top: 22%;
+  top: 38%;
   left: 29%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -185,7 +187,7 @@ header .btns {
   padding-right: 20px;
   padding-top: 9px;
   padding-bottom: 12px;
-  top: 22%;
+  top: 38%;
   left: 71%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -213,7 +215,7 @@ header .btns {
   background-color: transparent;
   background-image: url(/images/gift.gif);
   padding-bottom: 5px;
-  top: 96%;
+  top: 877px;
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
@@ -229,7 +231,7 @@ header .btns {
 
 .img-container .separator {
   position: absolute;
-  top: 630px;
+  top: 750px;
   padding-left: 100px;
   padding-right: 100px;
   font-size: 3.3em;
@@ -247,9 +249,9 @@ header .btns {
 }
 
 .img-container input {
-  margin-top: 720px;
+  margin-top: 727px;
   height: 20px;
-  width: 131px;
+  width: 151px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -276,7 +278,7 @@ header .btns {
 .img-container input[type="range"]::-webkit-slider-runnable-track {
   width: 300px;
   height: 7px;
-  background: gray;
+  background: rgb(58, 58, 58);
   border: none;
   border-radius: 5px;
   border-color: #a02214;
@@ -331,7 +333,7 @@ header .btns {
   font-weight: 300;
 }
 
-.operator1 {
+.operators .operator1 {
   height: 250px;
   max-width: 250px;
   position: absolute;
@@ -539,7 +541,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 1271px;
+  margin-top: 1971px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -587,4 +589,73 @@ header .btns {
 .mktg {
   font-size: 0.5em;
   margin-top: -19px;
+}
+
+.partners {
+  position: absolute;
+  margin-top: 1050px;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.balex {
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 250px;
+  margin-left: 30%;
+  margin-right: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.cultivate {
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 360px;
+}
+
+.virtue {
+  height: auto;
+  width: 100%;
+  max-width: 200px;
+  position: absolute;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 111px;
+}
+
+.zolchix {
+  height: auto;
+  width: 100%;
+  max-width: 250px;
+  margin-top: 250px;
+  margin-left: 70%;
+  margin-right: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.partners p {
+  font-size: 3.5em;
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  position: absolute;
+  margin-top: -60px;
 }
