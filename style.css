@@ -552,7 +552,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 2261px;
+  margin-top: 2531px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -565,7 +565,7 @@ header .btns {
 }
 
 .arHelmet {
-  margin-top: 257px;
+  margin-top: 249px;
   height: 250px;
   position: absolute;
   margin-left: 50%;
@@ -591,7 +591,7 @@ header .btns {
 
 .roadMap p {
   color: #a02214;
-  margin-top: 20px;
+  margin-top: -20px;
   font-family: "inversionz";
   margin-bottom: 70px;
 }
@@ -608,7 +608,7 @@ header .btns {
   align-items: center;
   margin-top: 50px;
   display: inline-block;
-  margin-bottom: -60px;
+  margin-bottom: -120px;
 }
 
 .roadMap li {
@@ -620,6 +620,15 @@ header .btns {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   font-size: 0.5em;
+}
+
+.noline ul {
+  margin-top: 45px;
+}
+
+.noline ul li {
+  text-decoration: none;
+  inline-size: 700px;
 }
 
 .mktg {
