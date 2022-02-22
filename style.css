@@ -301,7 +301,7 @@ header .btns {
 .bottomlogo {
   height: 50px;
   max-width: 50px;
-  margin-top: 18px;
+  margin-top: 260px;
   margin-left: 53%;
   text-align: center;
   margin-right: 50%;
@@ -552,7 +552,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 1971px;
+  margin-top: 2261px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -564,9 +564,34 @@ header .btns {
   text-align: center;
 }
 
+.arHelmet {
+  margin-top: 257px;
+  height: 250px;
+  position: absolute;
+  margin-left: 50%;
+
+  text-align: center;
+  display: block;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.arHelmet2 {
+  margin-top: 80px;
+  height: 250px;
+  position: absolute;
+  margin-left: 50%;
+  text-align: center;
+  display: block;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 .roadMap p {
   color: #a02214;
-  margin-top: -50px;
+  margin-top: 20px;
   font-family: "inversionz";
   margin-bottom: 70px;
 }
@@ -631,7 +656,7 @@ header .btns {
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  margin-top: 360px;
+  margin-top: 460px;
 }
 
 .virtue {
@@ -643,7 +668,7 @@ header .btns {
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  margin-top: 111px;
+  margin-top: 41px;
 }
 
 .zolchix {
@@ -658,6 +683,10 @@ header .btns {
   -ms-transform: translate(-50%, -50%);
 }
 
+.partners {
+  margin-top: 1145px;
+}
+
 .partners p {
   font-size: 3.5em;
   width: 100%;
@@ -668,5 +697,5 @@ header .btns {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   position: absolute;
-  margin-top: -60px;
+  margin-top: -140px;
 }
