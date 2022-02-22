@@ -215,6 +215,10 @@ header .img1 {
   margin-right: 50%;
 }
 
+.artifacts {
+  margin-top: 250px;
+}
+
 .artifacts .aTitle {
   top: 2030px;
   position: absolute;
@@ -243,6 +247,12 @@ header .img1 {
   font-size: 1em;
 }
 
+.artifacts .bDesc {
+  margin-left: 51.5%;
+  margin-top: 400px;
+  z-index: 9999;
+}
+
 .artifacts .artifact2 {
   position: absolute;
   top: 2270px;
@@ -255,6 +265,15 @@ header .img1 {
   border-style: outset;
   border-color: gray;
   height: 250px;
+}
+
+.hype {
+  margin-top: 1365px;
+  height: 37px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .artifacts .artifact3 {
