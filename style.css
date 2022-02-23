@@ -30,6 +30,7 @@ header {
   display: flex;
   width: 100%;
   margin: 0 auto;
+  padding-left: 50px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
@@ -330,7 +331,7 @@ header .btns {
   height: 50px;
   max-width: 50px;
   margin-bottom: 85px;
-  margin-left: 49.5%;
+  margin-left: 50%;
   text-align: center;
   margin-right: 50%;
   transform: translate(-50%, -50%);
