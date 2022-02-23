@@ -155,6 +155,10 @@ header .img1 {
   inline-size: 500px;
 }
 
+.arHelmet {
+  margin-top: -500px;
+}
+
 .metatext {
   top: 1033px;
   position: absolute;
