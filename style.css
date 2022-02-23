@@ -121,6 +121,7 @@ header .btns {
   margin-top: 30px;
   font-size: 2.25em;
   font-weight: 100;
+  z-index: 5555;
   color: #a02214;
   letter-spacing: 1.5px;
   font-family: inversionz;
@@ -564,7 +565,6 @@ header .btns {
   font-size: 1.75em;
   color: #a02214;
 }
-
 .roadMap {
   position: absolute;
   margin-top: 2431px;
