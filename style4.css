@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  height: 120px;
+  height: 107px;
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
@@ -14,17 +14,24 @@ header {
   justify-content: space-between;
 }
 
-.ui {
+.head1,
+.head2,
+.head3,
+.head4 {
+  margin-top: 37px;
   width: 170px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px;
   border-radius: 30px;
   border-style: outset;
   background: url(/images/vvbanner.gif);
   border-color: lightgray;
   text-transform: uppercase;
+  text-align: center;
   color: white;
-
+  align-items: center;
   font-family: "Inter", sans-serif;
 }
 
@@ -43,20 +50,26 @@ a {
 }
 
 .city {
-  margin-top: 75px;
+  margin-top: 395px;
   width: 100%;
-  max-width: 2000px;
+  max-width: 1200px;
   height: auto;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .background p {
   position: absolute;
-  margin-top: -700px;
+  top: 33%;
   font-family: inter;
   margin-left: 50%;
+  display: block;
   margin-right: 50%;
   font-size: 2em;
   inline-size: 450px;
   text-align: center;
   transform: translate(-50%, -50%);
 }
+

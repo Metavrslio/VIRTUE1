@@ -258,7 +258,7 @@ header .btns {
 }
 
 .img-container input {
-  margin-top: 727px;
+  margin-top: 757px;
   height: 20px;
   width: 151px;
   position: absolute;
@@ -266,15 +266,27 @@ header .btns {
   margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-
   background-color: transparent;
+}
+
+.sliderTicks {
+  display: flex;
+  margin-top: 777px;
+  padding-left: 25px;
+  position: absolute;
+  z-index: 500;
+  text-align: center;
+  letter-spacing: 20px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .img-container input[type="range"] {
   -webkit-appearance: none;
   z-index: 50;
   width: 200px;
-  margin-top: 780px;
+  margin-top: 800px;
 }
 
 .img-container input[type="range"]::-webkit-slider-thumb {

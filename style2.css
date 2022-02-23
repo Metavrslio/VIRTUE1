@@ -14,7 +14,7 @@ body {
 }
 
 header {
-  height: 120px;
+  height: 107px;
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
@@ -24,22 +24,42 @@ header {
   justify-content: space-between;
 }
 
-.ui {
+.head1 {
+  margin-top: 37px;
   width: 170px;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border-radius: 30px;
   border-style: outset;
   background: url(/images/vvbanner.gif);
   border-color: lightgray;
   text-transform: uppercase;
+  text-align: center;
   color: white;
-
+  border-width: 1px;
+  align-items: center;
   font-family: "Inter", sans-serif;
 }
 
-.ui:hover {
-  background-image: url("/images/gift.gif");
+.head2,
+.head3,
+.head4 {
+  margin-top: 37px;
+  width: 170px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px;
+  border-radius: 30px;
+  border-style: outset;
+  background: url(/images/vvbanner.gif);
+  border-color: lightgray;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: "Inter", sans-serif;
 }
 
 header .img1 {
