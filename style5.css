@@ -1,0 +1,81 @@
+body {
+  font-family: "inter";
+  color: white;
+  background-color: black;
+}
+
+header {
+  height: 107px;
+  width: 100%;
+  max-width: 1128px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.head1 {
+  margin-top: 37px;
+  width: 170px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 30px;
+  border-style: outset;
+  background: url(/images/vvbanner.gif);
+  border-color: lightgray;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  border-width: 1px;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.head2,
+.head3,
+.head4 {
+  margin-top: 37px;
+  width: 170px;
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px;
+  border-radius: 30px;
+  border-style: outset;
+  background: url(/images/vvbanner.gif);
+  border-color: lightgray;
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+header .img1 {
+  height: 150px;
+  margin-top: 60px;
+}
+
+.about {
+  width: 100%;
+  max-width: 1128px;
+  display: flex;
+  min-width: 600px;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  margin-top: 195px;
+  justify-content: center;
+}
+
+.about p {
+  width: 100%;
+  line-height: 25px;
+  text-align: left;
+  max-width: 950px;
+  display: flex;
+  margin-top: 150px;
+}
