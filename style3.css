@@ -51,7 +51,7 @@ header .btns {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-left: 50px;
+  margin-left: 110px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -66,9 +66,12 @@ header .btns {
 }
 
 .vlogo {
-  margin-left: 10px;
-  height: 60px;
+  margin-left: -50px;
+  height: 40px;
   align-items: center;
+  object-fit: contain;
+  width: 100%;
+  min-width: 180px;
 }
 
 .connect {

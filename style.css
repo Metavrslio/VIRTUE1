@@ -26,6 +26,7 @@ header {
   width: 100%;
   margin: 0 auto;
   max-width: 1400px;
+
   align-items: center;
   justify-content: space-between;
   font-weight: 650;
@@ -53,7 +54,7 @@ header .btns {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-left: 50px;
+  margin-left: 110px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -80,8 +81,7 @@ header .btns {
 }
 
 .vlogo {
-  margin-left: 10px;
-  height: 65px;
+  height: 40px;
   width: 100%;
   object-fit: contain;
   min-width: 180px;
@@ -188,7 +188,7 @@ header .btns {
 
 .img-container .btn2:hover {
   background-image: url(/images/gift.gif);
-  color: aqua;
+  color: rgb(0, 136, 255);
 }
 
 .img-container .btn3 {
@@ -213,7 +213,7 @@ header .btns {
 
 .img-container .btn3:hover {
   background-image: url(/images/gift.gif);
-  color: rgb(255, 0, 247);
+  color: rgb(142, 0, 97);
 }
 
 .img-container .btn4 {
@@ -226,7 +226,7 @@ header .btns {
   background-color: transparent;
   background-image: url(/images/gift.gif);
   padding-bottom: 5px;
-  top: 877px;
+  top: 859px;
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
@@ -330,7 +330,7 @@ header .btns {
   height: 1px;
   width: 39%;
   position: absolute;
-  margin-top: 945px;
+  margin-top: 955px;
   margin-left: 50%;
   margin-right: 50%;
   transform: translate(-50%, -50%);
@@ -338,7 +338,7 @@ header .btns {
 }
 
 .Ops {
-  margin-top: 910px;
+  margin-top: 935px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -353,6 +353,7 @@ header .btns {
 
 .operators {
   margin-top: -375px;
+  width: max-content;
 }
 
 .operators .operator1 {
