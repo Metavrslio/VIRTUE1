@@ -15,6 +15,15 @@ header {
   justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column;
+  }
+  header .img1 {
+    display: none;
+  }
+}
+
 .head1 {
   margin-top: 37px;
   width: 170px;
@@ -62,12 +71,12 @@ header .img1 {
   width: 100%;
   max-width: 1128px;
   display: flex;
-  min-width: 600px;
+  min-width: 400px;
   margin-left: 50%;
   margin-right: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
-  margin-top: 195px;
+  margin-top: 255px;
   justify-content: center;
 }
 
@@ -78,4 +87,35 @@ header .img1 {
   max-width: 950px;
   display: flex;
   margin-top: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+  .artifactGallery {
+    flex-direction: column;
+  }
+  .about {
+    margin-top: 420px;
+  }
+}
+
+.artifactGallery {
+  display: flex;
+  margin-top: 60px;
+  justify-content: space-between;
+}
+
+.blackDiamonds,
+.goldRing,
+.doll,
+.arch {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  max-height: 250px;
+  object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px;
+  border-style: outset;
+  border-radius: 20px;
 }
