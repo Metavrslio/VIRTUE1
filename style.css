@@ -1,4 +1,12 @@
-html,
+@font-face {
+  src: url("/fonts/inversionz/Inter/Inter-VariableFont_slnt\,wght.ttf");
+  font-family: "inversionz";
+  src: url("/fonts/inversionz/Inversionz.otf");
+  src: url("/fonts/inversionz/Inversionz.ttf");
+  src: url("/fonts/inversionz/Inversionz\ Unboxed.otf");
+  src: url("/fonts/inversionz/Inversionz\ Unboxed.ttf");
+}
+
 body {
   background-color: rgb(0, 0, 0);
   margin: 0px;
@@ -18,7 +26,7 @@ header {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-left: 50px;
+  padding-left: 70px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;

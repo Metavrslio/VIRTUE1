@@ -62,6 +62,19 @@ header {
   font-family: "Inter", sans-serif;
 }
 
+.head1:hover {
+  background-image: url(/images/gift.gif);
+}
+.head2:hover {
+  background-image: url(/images/gift.gif);
+}
+.head3:hover {
+  background-image: url(/images/gift.gif);
+}
+.head4:hover {
+  background-image: url(/images/gift.gif);
+}
+
 header .img1 {
   height: 150px;
   margin-top: 60px;
