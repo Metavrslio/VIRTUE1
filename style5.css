@@ -108,6 +108,7 @@ header .img1 {
 .goldRing,
 .doll,
 .arch {
+  flex-basis: 100%;
   width: 100%;
   max-width: 250px;
   height: auto;
