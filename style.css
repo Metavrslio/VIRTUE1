@@ -47,6 +47,16 @@ header .ui {
   font-size: 1em;
 }
 
+header .btns .ui a:hover {
+  color: rgb(143, 143, 143);
+  transition: all 0.25s ease;
+}
+
+header .btns .ui:hover {
+  color: rgb(143, 143, 143);
+  transition: all 0.25s ease;
+}
+
 header .ui a {
   text-decoration: none;
   color: white;
@@ -109,6 +119,12 @@ header .btns {
   font-size: 0.75em;
 
   border-radius: 5px;
+}
+
+.connect:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  transition: all 0.25s ease;
 }
 
 .OA {
