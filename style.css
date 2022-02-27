@@ -261,25 +261,18 @@ header .btns {
   display: block;
 }
 
-.sliderContainer {
-  width: 75%;
+.sliderContainer input {
+  width: 200px;
   margin-top: 745px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 .sliderContainer p {
-  text-align: center;
-  font-family: inter;
-  font-size: 1rem;
-}
-
-.sliderContainer {
-  -webkit-appearance: none;
-  width: 200px;
-  height: 20px;
-  position: absolute;
-  outline: none;
-  opacity: 0.7;
-  margin-left: -7%;
+  margin-left: -29px;
+  inline-size: 150px;
 }
 
 .slider:hover {
@@ -330,25 +323,12 @@ header .btns {
   background-color: #a02214;
   height: 1px;
   width: 45%;
+  margin-top: 100px;
   position: absolute;
   margin-left: auto;
   margin-right: auto;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-}
-
-.Ops {
-  margin-top: 900px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  inline-size: 650px;
-  display: flex;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  font-size: 3.5em;
-  font-weight: 300;
 }
 
 @media only screen and (max-width: 768px) {
@@ -370,8 +350,20 @@ header .btns {
   }
 }
 
+.operatorsss {
+  margin-left: 50%;
+  margin-right: 50%;
+  inline-size: 450px;
+  margin-top: 90px;
+  font-weight: 300;
+  text-align: center;
+  font-size: 2.5rem;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 .team {
-  margin-top: 27px;
+  margin-top: 80px;
   display: flex;
   justify-content: space-between;
   background-color: rgb(0, 0, 0);
@@ -443,7 +435,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 1704px;
+  margin-top: 1854px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -552,7 +544,7 @@ header .btns {
     flex-direction: column;
   }
   .roadMap {
-    margin-top: 3000px;
+    margin-top: 3100px;
   }
 }
 
