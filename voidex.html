@@ -10,6 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VOIDEX</title>
+    
     <link rel="stylesheet" href="https://use.fontawesome/style.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="injected" href="./components/connectors.js">
@@ -57,18 +58,16 @@
             <button class="btn3">Choose Female</button>
             <div class="OA">OPERATION ALPHA</div>
             
-            <input type="range" value="1" min="1" max="7">
-            <div class="sliderTicks">
-                
-                <p>1</p>
-                <p>2</p>
-                <p>3</p>
-                <p>4</p>
-                <p>5</p>
-                <p>6</p>
-                <p>7</p>
-            </div>
             
+            
+            
+            <div class="sliderContainer">
+                <input type="range" min="1" max="7" value="1" id="myRange" class="slider">
+                <p>Value: <span id="value"></span></p>
+            </div>
+
+
+
             
                 
             <div class="Ops">OPERATORS AND CREW</div>
@@ -181,4 +180,5 @@
 
     </div>
 </body>
+<script src="/components/main.js"></script>
 </html>
