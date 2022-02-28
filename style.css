@@ -354,6 +354,9 @@ header .btns {
   .team2 {
     flex-wrap: wrap;
   }
+  .team3 {
+    flex-wrap: wrap;
+  }
   header {
     flex-direction: column;
     margin-left: -190px;
@@ -399,6 +402,17 @@ header .btns {
   margin-right: auto;
 }
 
+.team3 {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  font-family: inter;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.team3 span,
 .team2 span,
 .team span {
   font-family: "inversionz";
@@ -451,7 +465,7 @@ header .btns {
 
 .roadMap {
   position: absolute;
-  margin-top: 1854px;
+  margin-top: 2154px;
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
@@ -562,6 +576,13 @@ header .btns {
   .roadMap {
     margin-top: 3100px;
   }
+  .card__content .card__title {
+    font-size: 0.9rem;
+    margin-bottom: -1px;
+  }
+  .card__content .card__price {
+    margin-top: -1px;
+  }
 }
 
 .partners p {
@@ -575,4 +596,61 @@ header .btns {
   -ms-transform: translate(-50%, -50%);
   position: absolute;
   margin-top: -100px;
+}
+
+.stacked {
+  display: grid;
+}
+
+.stacked > * {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.product-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.card {
+  aspect-ratio: 1 / 1;
+  max-width: 300px;
+}
+
+.card__content {
+  background: rgb(23, 23, 23);
+  align-self: end;
+  margin: 0.5rem 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.1);
+}
+
+.card__title {
+  font-size: 1.25rem;
+  line-height: 1;
+  color: firebrick;
+  margin-top: -5px;
+}
+
+.card__price {
+  font-size: 1.2rem;
+  margin-top: -15px;
+}
+
+.card__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
