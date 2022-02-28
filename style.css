@@ -34,7 +34,7 @@ header {
   justify-content: space-between;
   font-weight: 650;
   background-color: rgb(0, 0, 0);
-  box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 7%);
+
   /*background-image: "vvbanner.gif";*/
 }
 
@@ -50,6 +50,10 @@ header .ui {
 header .btns .ui a:hover {
   color: rgb(143, 143, 143);
   transition: all 0.25s ease;
+}
+
+header .btns .ui {
+  color: #a02214;
 }
 
 header .btns .ui:hover {
@@ -73,11 +77,6 @@ header .btns {
   display: flex;
 
   justify-content: space-between;
-}
-
-.left-nav nav ul li:hover {
-  color: rgb(227, 194, 138);
-  transition: all 0.25s ease;
 }
 
 .right-nav {
@@ -287,8 +286,10 @@ header .btns {
 }
 
 .sliderContainer p {
-  margin-left: -29px;
-  inline-size: 150px;
+  margin-left: -78px;
+  inline-size: 250px;
+  font-size: 1.5rem;
+  margin-top: 3px;
 }
 
 .slider:hover {
@@ -304,7 +305,7 @@ header .btns {
   appearance: none;
   width: 40px;
   height: 40px;
-  background: white;
+  background: rgb(255, 0, 0);
   border-radius: 50%;
   cursor: pointer;
 }
