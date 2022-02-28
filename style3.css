@@ -21,30 +21,18 @@ header {
   font-family: "Inter";
   font-size: 1.35em;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   width: 100%;
+  margin: 0 auto;
+  padding-left: 90px;
   max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
-  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
   font-weight: 650;
   background-color: rgb(0, 0, 0);
-}
 
-header .btns .uii {
-  color: brown;
-  background: transparent;
-  color: white;
-  text-transform: uppercase;
-  border: none;
-  font-family: "inter";
-  font-size: 1em;
-}
-
-header .uii a {
-  text-decoration: none;
-  color: #a02214;
+  /*background-image: "vvbanner.gif";*/
 }
 
 header .ui {
@@ -54,6 +42,32 @@ header .ui {
   border: none;
   font-family: "inter";
   font-size: 1em;
+}
+
+header .btns .ui a:hover {
+  color: rgb(143, 143, 143);
+  transition: all 0.25s ease;
+}
+
+header .btns .uii {
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+}
+
+header .btns .uii a {
+  color: #a02214;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
+  font-family: "inter";
+  font-size: 1em;
+  padding: mpme;
+}
+
+header .btns .ui:hover {
+  color: rgb(143, 143, 143);
+  transition: all 0.25s ease;
 }
 
 header .ui a {
@@ -74,6 +88,13 @@ header .btns {
   justify-content: space-between;
 }
 
+.right-nav {
+  align-items: center;
+  display: flex;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
 .logo {
   height: 65px;
   width: 65px;
@@ -83,11 +104,18 @@ header .btns {
 .vlogo {
   margin-left: -50px;
   height: 40px;
-  align-items: center;
-  object-fit: contain;
   width: 100%;
+  object-fit: contain;
   min-width: 180px;
+  align-items: center;
 }
+
+/*.our-mission {
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}*/
 
 .connect {
   background-color: white;
@@ -101,18 +129,11 @@ header .btns {
   border-radius: 5px;
 }
 
-.right-nav {
-  align-items: center;
-  display: flex;
-  margin-right: 15px;
-  margin-left: 15px;
-}
-
 h1 {
   font-family: inversionz;
   font-size: 4em;
   text-align: center;
-  background-image: url(/images/gift.gif);
+
   inline-size: 500px;
   margin-left: 50%;
   margin-right: 50%;

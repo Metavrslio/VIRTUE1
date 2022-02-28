@@ -32,7 +32,7 @@ header {
   padding-bottom: 5px;
   border-radius: 30px;
   border-style: outset;
-  background: url(/images/vvbanner.gif);
+
   border-color: lightgray;
   text-transform: uppercase;
   text-align: center;
@@ -53,7 +53,7 @@ header {
   border: 1px;
   border-radius: 30px;
   border-style: outset;
-  background: url(/images/vvbanner.gif);
+
   border-color: lightgray;
   text-transform: uppercase;
   text-align: center;
@@ -63,16 +63,16 @@ header {
 }
 
 .head1:hover {
-  background-image: url(/images/gift.gif);
+  background-image: url(/images/vvbanner.gif);
 }
 .head2:hover {
-  background-image: url(/images/gift.gif);
+  background-image: url(/images/vvbanner.gif);
 }
 .head3:hover {
-  background-image: url(/images/gift.gif);
+  background-image: url(/images/vvbanner.gif);
 }
 .head4:hover {
-  background-image: url(/images/gift.gif);
+  background-image: url(/images/vvbanner.gif);
 }
 
 header .img1 {
