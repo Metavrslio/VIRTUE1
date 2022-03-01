@@ -153,6 +153,11 @@ header .img1 {
   inline-size: 500px;
 }*/
 
+.metaworld span {
+  z-index: 999999;
+  position: absolute;
+}
+
 .metatext {
   top: 770px;
   position: absolute;
@@ -189,7 +194,7 @@ header .img1 {
   justify-content: center;
   display: block;
   position: absolute;
-  top: 1400px;
+  top: 1460px;
   margin-left: 50%;
   margin-right: 50%;
   text-align: center;
@@ -199,7 +204,7 @@ header .img1 {
 
 .metaworld .vvs {
   position: absolute;
-  top: 1510px;
+  top: 1610px;
   justify-content: center;
   margin-left: 50%;
   margin-right: 50%;
@@ -213,7 +218,7 @@ header .img1 {
 }
 
 .artifacts .aTitle {
-  top: 1610px;
+  top: 1730px;
   position: absolute;
   margin-left: 50.5%;
   justify-content: center;
@@ -227,7 +232,7 @@ header .img1 {
 }
 
 .artifacts .aDesc {
-  top: 1645px;
+  top: 1765px;
   position: absolute;
   margin-left: 51%;
   justify-content: center;
@@ -492,7 +497,7 @@ a {
   position: absolute;
   margin-left: 50%;
   margin-right: 50%;
-  margin-top: 475px;
+  margin-top: -420px;
   display: flex;
 
   z-index: 555;
@@ -658,7 +663,7 @@ a {
 }
 
 .container {
-  margin-top: 900px;
+  margin-top: -175px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -687,4 +692,31 @@ a {
   object-fit: cover;
   border-radius: 15px;
   border-style: inset;
+}
+
+.image {
+  position: relative;
+  margin-top: 250px;
+}
+
+.image > img {
+  width: 1250px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  position: absolute;
+
+  top: -250px;
+  left: 100px;
+  width: 100%;
+  margin: 0 auto;
+  width: 300px;
+  height: 50px;
+  font-family: inter;
+  color: black;
+  inline-size: 650px;
+  font-size: 3rem;
 }
