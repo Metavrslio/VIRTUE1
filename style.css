@@ -477,7 +477,9 @@ header .btns {
   inline-size: 400px;
   text-align: center;
 }
-
+.metaverse {
+  width: 500px;
+}
 .arHelmet {
   margin-top: -90px;
   height: 250px;

@@ -9,6 +9,7 @@
 }
 
 body {
+  width: 100%;
   background-color: black;
   color: white;
 }
@@ -16,8 +17,10 @@ body {
 header {
   height: 107px;
   width: 100%;
-  max-width: 1128px;
-  margin: 0 auto;
+
+  margin-left: 50%;
+  margin-right: 50%;
+
   justify-content: center;
   align-items: center;
   display: flex;
@@ -81,66 +84,47 @@ header .img1 {
 }
 
 .banner .img2 {
-  height: 620px;
-  width: 100%;
-  max-width: 1400px;
-  justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
   position: relative;
-  display: block;
-  margin-top: 60px;
-  z-index: -2;
 }
 
 .banner .img3 {
   position: absolute;
-  top: 255px;
-  z-index: 19;
-  height: 555px;
-  margin-left: 49.5%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  display: block;
-  margin-right: 50%;
 
-  justify-content: center;
+  left: 255px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  max-width: 600px;
+  width: 100%;
 }
-
 .banner {
   position: relative;
+  width: 100%;
   text-align: center;
+  margin-left: 50%;
+  margin-right: 50%;
   color: white;
+  margin-top: 50px;
 }
 
 .centertext {
   position: absolute;
-  top: 425px;
-  left: 50%;
-  transform: translate(-50%, -50%);
+
+  left: 255px;
+  right: 0;
+  top: 455px;
+  bottom: 0;
+
+  max-width: 600px;
+  width: 100%;
   font-size: 3rem;
   line-height: 0.8;
   font-family: "Inter";
   font-weight: 700;
   text-transform: uppercase;
-  z-index: 91;
+  z-index: 991;
   background-color: black;
-}
-
-.separator {
-  background-color: rgb(255, 255, 255);
-  position: absolute;
-  top: 790px;
-  padding-left: 100px;
-  padding-right: 100px;
-  width: 150px;
-  height: 2px;
-  text-align: center;
-  margin-left: 50%;
-  margin-right: 50%;
-  display: block;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 
 /*.alpha {
@@ -157,7 +141,14 @@ header .img1 {
   z-index: 999999;
   position: absolute;
 }
-
+.metaworld {
+  position: absolute;
+  margin-top: -250px;
+  max-width: 1400px;
+  margin-left: 50%;
+  margin-right: 50%;
+  z-index: 99999;
+}
 .metatext {
   top: 770px;
   position: absolute;
@@ -175,7 +166,12 @@ header .img1 {
   color: black;
   transform: translate(-50%, -50%);
 }
+.metaverse {
+  width: 1150px;
 
+  position: absolute;
+  text-align: center;
+}
 .metapic {
   height: auto;
   width: 100%;
@@ -204,7 +200,7 @@ header .img1 {
 
 .metaworld .vvs {
   position: absolute;
-  top: 1610px;
+  top: 1500px;
   justify-content: center;
   margin-left: 50%;
   margin-right: 50%;
@@ -480,29 +476,26 @@ a {
 }
 
 .downArrow {
-  margin-top: -10px;
-  z-index: 555;
   height: 40px;
-  margin-left: auto;
-  margin-right: auto;
   text-align: center;
-  justify-content: center;
   position: relative;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+  left: 550px;
+  top: 500px;
+
+  display: block;
+  z-index: 584584588;
   animation: animateDown infinite 3.1s;
 }
 
 .learnMore {
   position: absolute;
-  margin-left: 50%;
+  margin-left: 500px;
   margin-right: 50%;
   margin-top: -420px;
-  display: flex;
+  display: block;
 
   z-index: 555;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+
   font-size: 1.5em;
   font-family: inter;
   inline-size: 200px;
@@ -631,10 +624,10 @@ a {
     display: none;
   }
   .metaworld {
-    margin-top: -340px;
+    margin-top: 540px;
   }
   .metaworld > img {
-    margin-top: -150px;
+    margin-top: 450px;
   }
   .aTitle {
     margin-top: -500px;
@@ -663,16 +656,20 @@ a {
 }
 
 .container {
-  margin-top: -175px;
+  margin-top: 800px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 50%;
+  margin-right: 50%;
+  text-align: center;
+
+  width: 1400px;
   justify-content: center;
 }
 
 .product-grid {
   display: grid;
   gap: 4rem;
+  margin-right: 240px;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
 }
@@ -694,11 +691,6 @@ a {
   border-style: inset;
 }
 
-.image {
-  position: relative;
-  margin-top: 250px;
-}
-
 .image > img {
   width: 1250px;
   margin-left: 50%;
@@ -710,13 +702,27 @@ h2 {
   position: absolute;
 
   top: -250px;
-  left: 100px;
+  display: block;
   width: 100%;
-  margin: 0 auto;
+  margin-left: 50%;
+  margin-right: 50%;
   width: 300px;
   height: 50px;
   font-family: inter;
-  color: black;
+  color: rgb(255, 255, 255);
   inline-size: 650px;
   font-size: 3rem;
+}
+
+.metaworld span {
+  color: white;
+  z-index: 999999;
+  font-family: inter;
+  font-size: 1.25rem;
+  inline-size: 250px;
+  margin-top: -50px;
+}
+
+.altText {
+  margin-left: 935px;
 }
