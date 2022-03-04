@@ -158,7 +158,16 @@ h1 {
 }
 
 .links {
-  margin-top: -27px;
+  margin-top: 400px;
+  margin-left: 50%;
+  margin-right: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.links:hover {
+  color: #a02214;
 }
 .sep {
   background-color: #ae9f84;
