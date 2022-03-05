@@ -308,6 +308,18 @@ h1 {
   margin-left: 5px;
 }
 
+.insta:hover {
+  transform: scale(1.5);
+}
+
+.opensea:hover {
+  transform: scale(1.5);
+}
+
+.twitter:hover {
+  transform: scale(1.5);
+}
+
 .footer {
   margin-top: -100px;
   margin-bottom: 80px;
