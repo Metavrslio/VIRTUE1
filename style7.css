@@ -18,6 +18,7 @@ header {
 }
 
 .head1,
+.head2,
 .head3,
 .head4 {
   margin-top: 37px;
@@ -37,8 +38,17 @@ header {
   font-family: "Inter", sans-serif;
 }
 
-.ui:hover {
-  background-image: url("/images/gift.gif");
+header .head1:hover {
+  background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
+}
+header .head2:hover {
+  background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
+}
+header .head3:hover {
+  background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
+}
+header .head4:hover {
+  background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
 }
 
 header .img1 {
@@ -49,6 +59,7 @@ header .img1 {
 a {
   text-decoration: none;
   color: white;
+  height: 50px;
 }
 
 .background {

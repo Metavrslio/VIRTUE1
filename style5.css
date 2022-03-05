@@ -66,13 +66,17 @@ header {
   border: 1px;
   border-radius: 30px;
   border-style: outset;
-  background: url(/images/vvbanner.gif);
+
   border-color: lightgray;
   text-transform: uppercase;
   text-align: center;
   color: white;
   align-items: center;
   font-family: "Inter", sans-serif;
+}
+
+.head4:hover {
+  background-image: url(/images/original.gif);
 }
 
 header .img1 {
