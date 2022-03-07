@@ -6,7 +6,7 @@ body {
 header {
   height: 107px;
   width: 100%;
-  max-width: 1128px;
+  max-width: 1250px;
   margin: 0 auto;
   justify-content: center;
   align-items: center;
@@ -40,8 +40,9 @@ header {
 }
 
 header .img1 {
-  height: 150px;
-  margin-top: 60px;
+  height: 100px;
+  margin-top: 40px;
+  margin-right: 15px;
 }
 
 a {
