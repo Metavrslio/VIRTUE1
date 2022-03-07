@@ -255,6 +255,9 @@ header .btns {
   letter-spacing: 2px;
   font-size: 1.7rem;
 }
+header .btns {
+  margin-left: -27px
+}
 
 .img-container .separator {
   position: absolute;
