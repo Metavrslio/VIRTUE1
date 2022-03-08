@@ -81,7 +81,7 @@ a {
 }
 
 .top2 {
-  margin-top: 1200px;
+  margin-top: -100px;
   z-index: 99999;
   position: absolute;
   width: 50px;
@@ -302,6 +302,7 @@ h1 {
 
 .insta {
   margin-left: 5px;
+  margin-right: 10px;
   height: 70px;
   width: 70px;
 }
@@ -337,5 +338,5 @@ h1 {
   width: 50px;
   height: 50px;
   margin-top: 10px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
