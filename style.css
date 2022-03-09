@@ -361,6 +361,9 @@ header .btns {
   .starBG {
     display: none;
   }
+  .img-container .separator {
+    font-size: 1.5rem;
+  }
   
 }
 
