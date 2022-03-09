@@ -356,7 +356,12 @@ header .btns {
   }
   .btns {
     margin-right: -50px;
+    font-size: .9rem;
   }
+  .starBG {
+    display: none;
+  }
+  
 }
 
 .operatorsss {
