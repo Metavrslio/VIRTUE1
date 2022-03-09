@@ -136,7 +136,7 @@ a {
   display: block;
   margin-right: 50%;
   font-size: 2.75em;
-  inline-size: 750px;
+  inline-size: 550px;
   border-radius: 20px;
   line-height: 0.85;
   text-align: center;
@@ -355,5 +355,17 @@ h1 {
   header {
     margin-bottom: 55px;
     margin-top: 75px;
+  }
+  .city {
+    width: 400px;
+  }
+  .info p {
+    inline-size: 550px;
+  }
+  .theCity p {
+    max-width: 500px;
+  }
+  .container {
+    max-width: 900px;
   }
 }
