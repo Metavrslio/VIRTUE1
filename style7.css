@@ -260,14 +260,11 @@ h1 {
 }
 
 .container {
-  max-width: 100rem;
-  margin-inline: auto;
-
-  transform: translate(-51%, -50%);
+  transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   display: flex;
-
-  padding-inline: 2rem;
+  text-align: center;
+  width: 100%;
 }
 
 .stacked {
@@ -363,10 +360,10 @@ h1 {
     inline-size: 550px;
   }
   .theCity p {
-    max-width: 500px;
+    max-width: 350px;
   }
   .container {
-    max-width: 900px;
+    max-width: 600px;
   }
   .theCity {
     margin-top: 570px;
@@ -374,5 +371,18 @@ h1 {
   .middleText {
     position: absolute;
     margin-top: 540px;
+  }
+  .product-grid {
+    margin-top: -250px;
+    margin-left: 820px;
+
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .card {
+    width: 150px;
+  }
+  .footer {
+    margin-top: -400px;
   }
 }
