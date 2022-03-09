@@ -71,7 +71,7 @@ header .btns {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-left:-50px;
+  margin-left:-10px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -83,7 +83,7 @@ header .btns {
   align-items: center;
   display: flex;
   margin-right: 15px;
-  margin-left: 15px;
+  margin-left: 10px;
 }
 
 .logo {
@@ -116,7 +116,7 @@ header .btns {
   padding-bottom: 6px;
   padding-right: 19px;
   font-size: 0.75em;
-  margin-right: 24px;
+  margin-right: 54px;
   border-radius: 5px;
 }
 
@@ -349,7 +349,7 @@ header .btns {
   }
   header {
     flex-direction: column;
-    margin-left: -190px;
+    margin-left: -169px;
   }
   .vlogo {
     display: none;
@@ -566,7 +566,7 @@ header .btns {
     flex-direction: column;
   }
   .roadMap {
-    margin-top: 3100px;
+    margin-top: 2530px;
   }
   .card__content .card__title {
     font-size: 0.9rem;
