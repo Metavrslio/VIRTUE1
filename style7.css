@@ -347,8 +347,13 @@ h1 {
 @media only screen and (max-width: 768px) {
   .theCity p {
     font-size: 1.1em;
+    text-align: left;
   }
   .middleText p {
     font-size: 0.77rem;
+  }
+  header {
+    margin-bottom: 55px;
+    margin-top: 75px;
   }
 }
