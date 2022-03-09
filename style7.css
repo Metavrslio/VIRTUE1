@@ -293,7 +293,7 @@ h1 {
   border: 1px solid;
   border-color: rgb(255, 255, 255);
   border-style: outset;
-  border-radius: 20px;
+  border-radius: 15px;
   aspect-ratio: 1 / 1;
 }
 
@@ -357,7 +357,7 @@ h1 {
     margin-top: 75px;
   }
   .city {
-    width: 400px;
+    display: none;
   }
   .info p {
     inline-size: 550px;
