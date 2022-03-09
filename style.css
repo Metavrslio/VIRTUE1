@@ -71,7 +71,7 @@ header .btns {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-left:-10px;
+ 
   justify-content: center;
   align-items: center;
   display: flex;
@@ -256,7 +256,7 @@ header .btns {
   font-size: 1.7rem;
 }
 header .btns {
-  margin-left: 97px
+  margin-left: 127px
 }
 
 .img-container .separator {
