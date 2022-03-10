@@ -29,6 +29,7 @@ header {
   }
   header .head3 {
     margin-top: 15px;
+    max-width: 100px;
   }
   header .head2 {
     margin-top: 15px;
