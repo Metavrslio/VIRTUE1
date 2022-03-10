@@ -364,6 +364,9 @@ header .btns {
   .img-container .separator {
     font-size: 1.5rem;
   }
+  header {
+    max-width: 750;
+  }
   
 }
 
@@ -541,7 +544,7 @@ header .btns {
 
 .noline ul li {
   text-decoration: none;
-  inline-size: 700px;
+  inline-size: 600px;
 }
 
 .mktg {
