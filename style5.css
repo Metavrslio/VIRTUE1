@@ -18,26 +18,22 @@ header {
 @media only screen and (max-width: 768px) {
   header {
     margin-bottom: -77px;
-    font-size: 0.75rem;
+    flex-direction: column;
   }
   header .img1 {
     display: none;
   }
   header .head1 {
     margin-top: 15px;
-    max-width: 100px;
   }
   header .head3 {
     margin-top: 15px;
-    max-width: 100px;
   }
   header .head2 {
     margin-top: 15px;
-    max-width: 100px;
   }
   header .head4 {
     margin-top: 15px;
-    max-width: 100px;
   }
 }
 
