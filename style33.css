@@ -80,7 +80,7 @@ header .btns {
   width: 100%;
   max-width: 1128px;
   margin: 0 auto;
-  margin-left: -27px;
+
   justify-content: center;
   align-items: center;
   display: flex;
@@ -102,10 +102,98 @@ header .btns {
 }
 
 .vlogo {
-  margin-left: -50px;
+  margin-left: -70px;
+  margin-right: 100px;
   height: 40px;
   width: 100%;
   object-fit: contain;
   min-width: 180px;
   align-items: center;
+}
+
+.upperBanner {
+  background-image: url(/images/static.JPG);
+  text-align: center;
+  font-family: "inversionz";
+  font-size: 2.5rem;
+  color: #a02214;
+}
+
+.chooseGender > img {
+  height: 550px;
+}
+
+.chooseGender {
+  justify-content: center;
+  display: flex;
+}
+
+.btn2,
+.btn3 {
+  height: 25px;
+  width: 120px;
+  margin-top: 200px;
+  background: transparent;
+  border-radius: 7.5px;
+  color: white;
+  font-family: inter;
+}
+
+.btn4 {
+  padding-left: 35px;
+  padding-right: 35px;
+
+  height: 25px;
+  background: transparent;
+  border-radius: 7.5px;
+  color: white;
+  font-family: inter;
+}
+
+.subHead {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-family: inter;
+  text-transform: uppercase;
+  color: white;
+  font-size: 3rem;
+}
+
+.sliderContainer {
+  width: 200px;
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.sliderContainer p {
+  margin-top: 10px;
+  inline-size: 275px;
+  margin-left: -30px;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background-color: silver;
+  width: 200px;
+  height: 5.5px;
+  border-radius: 5px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #a02214;
+  opacity: 0.77;
+  width: 10px;
+  height: 26px;
+  border-radius: 15px;
+}
+
+.opsAndCrew h1 {
+  text-align: center;
+  font-family: inversionz;
+  font-weight: 300;
+  font-size: 2.5rem;
 }
