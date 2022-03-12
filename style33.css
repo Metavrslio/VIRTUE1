@@ -266,6 +266,7 @@ h1 {
   -ms-transform: translate(-50%, -50%);
   margin-top: 500px;
   margin-bottom: -400px;
+  width: 400px;
 }
 
 .bottomlogo {
