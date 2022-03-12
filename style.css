@@ -669,12 +669,5 @@ input[type=range] {
   height:7px;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-   -webkit-appearance: none;
-  background-color: #a02214;
-  opacity: 0.77;
-  width: 10px;
-  height: 26px;
-  border-radius: 15px;
-}
+
 

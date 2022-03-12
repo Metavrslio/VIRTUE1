@@ -23,8 +23,8 @@ header {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-left: 90px;
-  max-width: 1400px;
+
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -42,32 +42,41 @@ header .ui {
   border: none;
   font-family: "inter";
   font-size: 1em;
+  font-weight: 200;
 }
 
-header .btns .ui a:hover {
-  color: rgb(143, 143, 143);
-  transition: all 0.25s ease;
-}
-
-header .btns .uii {
+header .ui2 {
   background: transparent;
-  border: none;
-  font-size: 1.5rem;
-}
-
-header .btns .uii a {
   color: #a02214;
-  text-decoration: none;
   text-transform: uppercase;
   border: none;
   font-family: "inter";
   font-size: 1em;
-  padding: mpme;
+}
+header .ui2 a {
+  text-decoration: none;
+  color: #a02214;
+}
+.connect {
+  background-color: white;
+  font-family: "inversionz";
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  font-size: 0.75em;
+
+  border-radius: 5px;
 }
 
-header .btns .ui:hover {
-  color: rgb(143, 143, 143);
+.connect:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
   transition: all 0.25s ease;
+}
+
+header .btns .ui a:hover {
+  color: rgb(143, 143, 143);
 }
 
 header .ui a {
@@ -75,40 +84,13 @@ header .ui a {
   color: white;
 }
 
-header .btns {
-  height: 120px;
-  width: 100%;
-  max-width: 1128px;
-  margin: 0 auto;
-
-  justify-content: center;
-  align-items: center;
-  display: flex;
-
-  justify-content: space-between;
+header .ui a:hover {
+  color: rgb(172, 172, 172);
+  transition: all 0.25s ease;
 }
 
-.right-nav {
-  align-items: center;
-  display: flex;
-  margin-right: 139px;
-  margin-left: 15px;
-}
-
-.logo {
-  height: 65px;
-  width: 65px;
-  margin-left: 75px;
-}
-
-.vlogo {
-  margin-left: -70px;
-  margin-right: 100px;
-  height: 40px;
-  width: 100%;
-  object-fit: contain;
-  min-width: 180px;
-  align-items: center;
+.headerLogo {
+  height: 27px;
 }
 
 .upperBanner {
@@ -131,7 +113,7 @@ header .btns {
 .btn2,
 .btn3 {
   height: 25px;
-  width: 120px;
+  width: 140px;
   margin-top: 200px;
   background: transparent;
   border-radius: 7.5px;
@@ -196,4 +178,104 @@ input[type="range"]::-webkit-slider-thumb {
   font-family: inversionz;
   font-weight: 300;
   font-size: 2.5rem;
+  margin-top: -7px;
+}
+
+.product-grid {
+  margin-top: 40px;
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+}
+
+.card {
+  aspect-ratio: 1 / 1;
+  max-width: 300px;
+}
+
+.card__content {
+  background: rgb(23, 23, 23);
+  align-self: end;
+  margin: 0.5rem
+  padding: 0.5rem;
+  border-radius: 10px;
+  height: 30px;
+  box-shadow: 0 0.25rem 1rem rgb(0 0 0 / 0.1);
+  font-family: inversionz;
+}
+
+.card__title {
+  font-size: 1.15rem;
+  line-height: 1;
+  color: firebrick;
+  margin-top: -2px;
+}
+
+.card__price {
+  font-size: 1.35rem;
+  margin-top: -20px;
+  z-index: 25;
+}
+
+.card__img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.partners {
+  margin-top: 77px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-family: inversionz;
+  font-size: 3rem;
+}
+
+.balex,
+.cultivate,
+.virtue,
+.zolchix,
+.rca {
+  height: 170px;
+  width: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.roadMap {
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  margin-top: 500px;
+  margin-bottom: -400px;
+}
+
+.bottomlogo {
+
+  height: 50px;
+  max-width: 50px;
+  margin-bottom: 85px;
+  margin-left: 50%;
+  text-align: center;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }

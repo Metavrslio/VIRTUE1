@@ -23,8 +23,8 @@ header {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  padding-left: 90px;
-  max-width: 1400px;
+
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -42,32 +42,41 @@ header .ui {
   border: none;
   font-family: "inter";
   font-size: 1em;
+  font-weight: 200;
 }
 
-header .btns .ui a:hover {
-  color: rgb(143, 143, 143);
-  transition: all 0.25s ease;
-}
-
-header .btns .uii {
+header .ui2 {
   background: transparent;
-  border: none;
-  font-size: 1.5rem;
-}
-
-header .btns .uii a {
   color: #a02214;
-  text-decoration: none;
   text-transform: uppercase;
   border: none;
   font-family: "inter";
   font-size: 1em;
-  padding: mpme;
+}
+header .ui2 a {
+  text-decoration: none;
+  color: #a02214;
+}
+.connect {
+  background-color: white;
+  font-family: "inversionz";
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 10px;
+  font-size: 0.75em;
+
+  border-radius: 5px;
 }
 
-header .btns .ui:hover {
-  color: rgb(143, 143, 143);
+.connect:hover {
+  background-color: black;
+  color: rgb(255, 255, 255);
   transition: all 0.25s ease;
+}
+
+header .btns .ui a:hover {
+  color: rgb(143, 143, 143);
 }
 
 header .ui a {
@@ -75,24 +84,13 @@ header .ui a {
   color: white;
 }
 
-header .btns {
-  height: 120px;
-  width: 100%;
-  max-width: 1128px;
-  margin: 0 auto;
-  margin-left: 77px;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-
-  justify-content: space-between;
+header .ui a:hover {
+  color: rgb(172, 172, 172);
+  transition: all 0.25s ease;
 }
 
-.right-nav {
-  align-items: center;
-  display: flex;
-  margin-right: 139px;
-  margin-left: 15px;
+.headerLogo {
+  height: 27px;
 }
 
 .logo {
