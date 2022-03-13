@@ -181,6 +181,16 @@ input[type="range"]::-webkit-slider-thumb {
   margin-top: -7px;
 }
 
+.opsAndCrew .redLine {
+  background-color: #a02214;
+  height: 1px;
+  width: 437px;
+  margin-left: 50%;
+  margin-right: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
 .product-grid {
   margin-top: 40px;
   display: grid;
@@ -300,3 +310,4 @@ h1 {
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
+
