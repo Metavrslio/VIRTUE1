@@ -260,6 +260,8 @@ h1 {
 }
 
 .container {
+  margin-left: 50%;
+  margin-right: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   display: flex;
@@ -363,7 +365,7 @@ h1 {
     max-width: 350px;
   }
   .container {
-    max-width: 600px;
+    max-width: 500px;
   }
   .theCity {
     margin-top: 570px;

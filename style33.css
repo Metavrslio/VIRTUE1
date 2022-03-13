@@ -258,8 +258,9 @@ input[type="range"]::-webkit-slider-thumb {
   .partners {
     flex-direction: column;
   }
-  .chooseGender {
-    width: 350px;
+  .btn2,
+  .btn3{
+    display: none;
   }
   header {
     flex-direction: column;
