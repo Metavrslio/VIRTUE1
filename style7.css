@@ -344,6 +344,10 @@ h1 {
 }
 
 @media only screen and (max-width: 768px) {
+  .h1 {
+    display: none;
+  }
+
   .theCity p {
     font-size: 1.1em;
     text-align: left;
