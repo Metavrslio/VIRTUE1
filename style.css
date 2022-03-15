@@ -343,6 +343,9 @@ header .btns {
   .team {
     flex-wrap: wrap;
   }
+  header .connect {
+    display: none;
+  }
   
   .team2 {
     flex-wrap: wrap;

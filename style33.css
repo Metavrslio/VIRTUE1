@@ -269,6 +269,12 @@ input[type="range"]::-webkit-slider-thumb {
   .h1 {
     display: none;
   }
+  .alpha {
+    display: none;
+  }
+  .upperBanner {
+    margin-top: 100px;
+  }
   
 }
 
