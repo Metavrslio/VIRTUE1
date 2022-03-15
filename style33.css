@@ -117,7 +117,7 @@ header .ui a:hover {
 .btn2,
 .btn3 {
   height: 25px;
-  width: 140px;
+  background-image: url(/images/);
   margin-top: 200px;
   background: transparent;
   border-radius: 7.5px;
@@ -135,6 +135,12 @@ header .ui a:hover {
   color: white;
   font-family: inter;
 }
+.btn3:hover,
+.btn2:hover,
+.btn4:hover {
+  background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
+}
+
 
 .subHead {
   margin-top: -5px;
