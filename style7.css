@@ -17,8 +17,6 @@ header {
   justify-content: space-between;
 }
 
-
-
 .head1,
 .head2,
 .head3,
@@ -171,6 +169,7 @@ a {
   position: absolute;
   margin-top: 2.5px;
   z-index: 9999999;
+  inline-size: 850px;
 }
 
 .info {
@@ -231,9 +230,9 @@ h1 {
 
 .theCity p {
   font-family: inter;
-  inline-size: 590px;
+  inline-size: 790px;
   font-weight: 700;
-  font-size: 3rem;
+
   color: black;
   text-align: left;
   line-height: 0.9;
@@ -350,49 +349,47 @@ h1 {
   .h1 {
     display: none;
   }
- 
-  }
-  .theCity p {
-    font-size: 1.1em;
-    text-align: left;
-  }
-  .middleText p {
-    font-size: 0.77rem;
-  }
-  header {
-    margin-bottom: 55px;
-    margin-top: 75px;
-  }
-  .city {
-    display: none;
-  }
-  .info p {
-    inline-size: 550px;
-  }
-  .theCity p {
-    max-width: 350px;
-  }
-  .container {
-    max-width: 500px;
-  }
-  .theCity {
-    margin-top: 570px;
-  }
-  .middleText {
-    position: absolute;
-    margin-top: 540px;
-  }
-  .product-grid {
-    margin-top: -250px;
-    margin-left: 820px;
+}
+.theCity p {
+  font-size: 2.8em;
+  text-align: left;
+}
+.middleText p {
+  font-size: 0.77rem;
+}
+header {
+  margin-bottom: 55px;
+  margin-top: 75px;
+}
+.city {
+  display: none;
+}
+.info p {
+  inline-size: 550px;
+}
+.theCity p {
+  max-width: 650px;
+}
+.container {
+  max-width: 500px;
+}
+.theCity {
+  margin-top: 570px;
+}
+.middleText {
+  position: absolute;
+  margin-top: 540px;
+}
+.product-grid {
+  margin-top: -250px;
+  margin-left: 820px;
 
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  .card {
-    width: 150px;
-  }
-  .footer {
-    margin-top: -400px;
-  }
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.card {
+  width: 150px;
+}
+.footer {
+  margin-top: -400px;
 }
