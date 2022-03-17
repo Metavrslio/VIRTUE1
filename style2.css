@@ -600,11 +600,9 @@ a {
     flex-wrap: wrap;
   }
   header {
-    max-width: 450px;
   }
   .product-grid {
     justify-content: center;
-    max-width: 550px;
   }
   .container {
     margin-left: auto;
@@ -628,8 +626,11 @@ a {
   .head3,
   .head4 {
     margin-top: 15px;
-    width: 125px;
+    width: 100px;
     font-size: 0.7rem;
+  }
+  .theCity .discover {
+    font-size: 1rem;
   }
   .separator {
     display: none;
