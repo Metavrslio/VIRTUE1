@@ -381,11 +381,6 @@ header {
   margin-top: 540px;
 }
 .product-grid {
-  margin-top: -250px;
-  margin-left: 820px;
-
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
 }
 .card {
   width: 150px;
