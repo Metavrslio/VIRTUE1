@@ -349,9 +349,7 @@ h1 {
   h1 {
     display: none;
   }
-  header {
-    flex-direction: row;
-  }
+  
 }
 .theCity p {
   font-size: 2.8em;

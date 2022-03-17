@@ -346,9 +346,7 @@ header .btns {
   header .connect {
     display: none;
   }
-  .card__title {
-    font-size: .25em;
-  }
+  
   .team2 {
     flex-wrap: wrap;
   }
