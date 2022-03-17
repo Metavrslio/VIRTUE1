@@ -603,7 +603,10 @@ a {
   }
   .product-grid {
     justify-content: center;
-    margin-right: 0px;
+    overflow-x: visible;
+    gap: 1rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr;
   }
   .container {
     margin-left: auto;
