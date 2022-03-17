@@ -234,7 +234,7 @@ input[type="range"]::-webkit-slider-thumb {
 }
 
 .card__title {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
   line-height: 1;
   color: firebrick;
   margin-top: -2px;
@@ -283,6 +283,17 @@ input[type="range"]::-webkit-slider-thumb {
   }
   .card {
     max-width: 100px;
+  }
+  .card__title {
+    font-size: .7rem;
+    inline-size: 105px;
+    
+  }
+  .card__price {
+    margin-top: auto;
+    inline-size: 105px;
+    font-size: .7rem;
+   
   }
   
 }
