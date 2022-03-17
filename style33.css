@@ -281,6 +281,9 @@ input[type="range"]::-webkit-slider-thumb {
   .upperBanner {
     margin-top: 100px;
   }
+  .card {
+    max-width: 100px;
+  }
   
 }
 

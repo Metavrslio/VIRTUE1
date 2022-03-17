@@ -600,7 +600,6 @@ a {
     flex-wrap: wrap;
   }
   header {
-    flex-direction: column;
   }
   .img1 {
     display: none;
@@ -619,6 +618,7 @@ a {
   .head3,
   .head4 {
     margin-top: 15px;
+    width: 125px;
   }
   .separator {
     display: none;
