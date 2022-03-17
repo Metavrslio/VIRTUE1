@@ -628,7 +628,8 @@ a {
     margin-top: -720px;
   }
   .info .roam {
-    overflow-x: hidden;
+    font-size: 0.75rem;
+    inline-size: 350px;
   }
   .head1,
   .head2,
