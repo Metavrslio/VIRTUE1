@@ -600,7 +600,17 @@ a {
     flex-wrap: wrap;
   }
   header {
+    max-width: 450px;
   }
+  .product-grid {
+    justify-content: center;
+    max-width: 550px;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .img1 {
     display: none;
   }
@@ -619,6 +629,7 @@ a {
   .head4 {
     margin-top: 15px;
     width: 125px;
+    font-size: 0.7rem;
   }
   .separator {
     display: none;
