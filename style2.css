@@ -603,6 +603,7 @@ a {
   }
   .product-grid {
     justify-content: center;
+    margin-right: 0px;
   }
   .container {
     margin-left: auto;
