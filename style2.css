@@ -603,7 +603,7 @@ a {
   }
   .product-grid {
     justify-content: center;
-    overflow-x: visible;
+    overflow-x: hidden;
     gap: 1rem;
     display: flex;
     grid-template-columns: 1fr 1fr;
@@ -616,6 +616,7 @@ a {
     margin-top: -377px;
   }
   .img1 {
+    display: none;
   }
   .banner {
     margin-top: 100px;
@@ -625,6 +626,9 @@ a {
   }
   .alpha {
     margin-top: -720px;
+  }
+  .info .roam {
+    overflow-x: hidden;
   }
   .head1,
   .head2,
