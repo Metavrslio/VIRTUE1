@@ -22,14 +22,26 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=block');
         </style>
+    
 </head>
 <body>
-    <header>
-        <a href="/index.html"><span class="head1">Home</span></a>
-        <a href="/about.html"><span class="head2">About Virtue</span></a>
-        <img class="img1" src="/images/vclogo.jpg"/>
-        <a href="/virtuecity.html"><span class="head3">VIRTUE CITY</span></a>
-        <a href="/voidex.html"><span class="head4">VOIDEX</span></a>
+    <header class="primary-header flex">
+        <div>
+            <img class="logo" src="/images/vvs.png">
+        </div>
+
+        <button class="mobile-nav-toggle"><img class="whiteMenu" src="/images/white-hamburger-menu-icon-24.jpg"></button>
+
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active"><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <img class="logo2" src="/images/vvs.png">
+                <li><a href="/virtuecity.html">Virtue City</a></li>
+                <li><a href="/voidex.html">Voidex</a></li>
+
+            </ul>
+        </nav>
     </header>
     <div class="period"><p>.</p></div>
     <div class="background">
@@ -106,5 +118,6 @@
         <a href="https://twitter.com/voidexops"><img class="twitter" src="/images/blicon.png"></a>
         <a href="https://opensea.io/virtueclan"><img class="opensea" src="/images/opensea.png"></a>
     </div>
+    <script src="/nav.js"></script>
 </body>
 </html>
