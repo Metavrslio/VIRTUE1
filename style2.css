@@ -749,7 +749,7 @@ a {
   gap: 2rem;
   margin-left: 50%;
   margin-right: 50%;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
 }
 
