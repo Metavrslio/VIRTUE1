@@ -11,6 +11,8 @@
 html,
 body {
   overflow-x: hidden;
+  width: 100%;
+  margin: 0;
 }
 
 body {
@@ -53,7 +55,7 @@ header {
     flex-direction: column;
     padding: min(30vh, 10rem) 2em;
     z-index: 999;
-    background: hsl(0 0% 100% / 0.1);
+    background: rgba(0, 0, 0, 0.7);
     backdrop-filter: blur(1rem);
 
     transform: translateX(100%);
