@@ -82,7 +82,7 @@ a {
 }
 
 .background {
-  margin-top: -135px;
+  margin-top: -277px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -101,7 +101,6 @@ a {
 }
 
 .top2 {
-  margin-top: -100px;
   z-index: 99;
   position: absolute;
   width: 50px;
