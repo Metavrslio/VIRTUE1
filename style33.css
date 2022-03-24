@@ -92,6 +92,18 @@ header .ui a:hover {
 
 .headerLogo {
   height: 27px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-radius: 3px;
+  padding-top: 10px;
+  border-top: 1px solid;
+  margin-top: 10px;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  padding-left: 10px;
+  border-left: 1px solid white;
+
+
 }
 
 .upperBanner {
