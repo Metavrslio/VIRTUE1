@@ -112,9 +112,9 @@ header {
     justify-content: center;
   }
 
-  .product-grid {
+  .pgrid1 {
     display: grid;
-    gap: 0rem;
+    gap: 3rem;
     margin-left: 50%;
     margin-right: 50%;
     grid-template-columns: 1fr;
