@@ -48,7 +48,6 @@ header {
 @media (max-width: 35em) {
   body,
   html {
-    margin-left: -12%;
   }
 
   .primary-navigation {
@@ -90,7 +89,6 @@ header {
     max-width: 400px;
   }
   html {
-    margin-left: 60px;
   }
   .theCity p {
     display: none;
@@ -138,7 +136,11 @@ header {
     grid-template-columns: 1fr;
     text-align: center;
   }
-
+  .top2 {
+    height: 40px;
+    width: 40px;
+    margin-top: -20px;
+  }
   .card {
     aspect-ratio: 1 / 1;
     max-width: 250px;
