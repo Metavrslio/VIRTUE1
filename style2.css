@@ -48,7 +48,7 @@ header {
 @media (max-width: 35em) {
   body,
   html {
-    margin-left: -9%;
+    margin-left: -12%;
   }
 
   .primary-navigation {
@@ -89,8 +89,8 @@ header {
   .info p {
     max-width: 400px;
   }
-  body {
-    padding: 80px;
+  html {
+    margin-left: 60px;
   }
   .theCity p {
     display: none;
@@ -142,6 +142,8 @@ header {
   .card {
     aspect-ratio: 1 / 1;
     max-width: 250px;
+    width: 100%;
+    min-width: 77px;
   }
 
   .card__price {
