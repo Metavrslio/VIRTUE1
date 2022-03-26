@@ -277,10 +277,6 @@ input[type="range"]::-webkit-slider-thumb {
   .partners {
     flex-direction: column;
   }
-  .astronaut {
-    width: auto;
-    overflow-x: hidden;
-  }
   .btn2,
   .btn3{
     display: none;
