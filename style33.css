@@ -12,7 +12,7 @@
 
 body {
   background-color: black;
-
+  margin-left: 40px;
   color: white;
   overflow-x: hidden;
 }
