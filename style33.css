@@ -308,10 +308,18 @@ input[type="range"]::-webkit-slider-thumb {
     font-size: .7rem;
    
   }
+  .subHead {
+    font-size: .8rem;
+  }
+  .redLine {
+    display: none;
+  }
 
 }
 .astronaut {
-  
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 h1 {
   text-align: center;
