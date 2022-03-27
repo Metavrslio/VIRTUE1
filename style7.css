@@ -45,10 +45,12 @@ body {
   li {
     border: 1px solid;
     border-style: outset;
-    width: 130px;
+    width: 170px;
     text-align: center;
     border-radius: 20px;
     font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     text-transform: uppercase;
   }
   li:hover {
