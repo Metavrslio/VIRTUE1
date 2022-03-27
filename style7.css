@@ -42,7 +42,7 @@ body {
     margin-top: 40px;
   }
 
-  li {
+  .primary-navigation a {
     border: 1px solid;
     border-style: outset;
     width: 170px;
@@ -53,7 +53,7 @@ body {
     padding-bottom: 5px;
     text-transform: uppercase;
   }
-  li:hover {
+  a:hover {
     background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
   }
 }
@@ -80,7 +80,6 @@ header .img1 {
 a {
   text-decoration: none;
   color: white;
-  height: 50px;
 }
 
 .background {

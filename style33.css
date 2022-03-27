@@ -134,7 +134,12 @@ header .ui a:hover {
   background: transparent;
   border-radius: 7.5px;
   color: white;
+  width: 170px;
   font-family: inter;
+}
+
+.btn3 {
+  width: 190px;
 }
 
 .btn4 {

@@ -21,7 +21,7 @@ body {
     margin-top: 40px;
   }
 
-  li {
+  .primary-navigation a {
     border: 1px solid;
     border-style: outset;
     width: 170px;
@@ -32,7 +32,7 @@ body {
     padding-bottom: 5px;
     text-transform: uppercase;
   }
-  li:hover {
+  a:hover {
     background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
   }
 }
@@ -60,6 +60,8 @@ header {
   text-decoration: none;
   font-family: "inter";
   color: white;
+  width: 170px;
+  display: block;
 }
 
 @media (max-width: 35em) {
