@@ -259,7 +259,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 .card__price {
   font-size: 1.35rem;
-  margin-top: -20px;
+  margin-top: -22px;
   z-index: 25;
 }
 
