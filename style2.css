@@ -50,6 +50,10 @@ header {
   html {
   }
 
+  .info p {
+    margin-top: 70px;
+  }
+
   .primary-navigation {
     --gap: 2em;
     position: fixed;
@@ -146,7 +150,7 @@ header {
   .top2 {
     height: 40px;
     width: 40px;
-    margin-top: -30px;
+    margin-top: -75px;
   }
   .card {
     aspect-ratio: 1 / 1;
