@@ -34,7 +34,8 @@ body {
   }
   .primary-navigation {
     align-items: center;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
     justify-content: center;
   }
   .primary-header {

@@ -37,7 +37,7 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
-  --gap: 8em;
+  --gap: 7em;
 }
 
 .primary-navigation a {
