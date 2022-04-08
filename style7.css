@@ -10,6 +10,9 @@ body {
   border-radius: 5px;
   border-style: outset;
   border-color: rgba(128, 128, 128, 0.507);
+  -webkit-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.63);
+-moz-box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.63);
+box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.33);
 
 }
 
