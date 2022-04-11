@@ -55,6 +55,12 @@ cursor: pointer;
   a:hover {
     background-image: url(/images/tumblr_olucp2SNGx1vsjcxvo1_r1_640.gif);
   }
+  .whiteMenu {
+    display: none;
+  }
+  .mobile-nav-toggle {
+
+  display: none;}
 }
 
 header .head1:hover {

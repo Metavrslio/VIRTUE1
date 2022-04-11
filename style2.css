@@ -29,7 +29,8 @@ header {
   align-items: center;
   justify-content: center;
 }
-.mobile-nav-toggle {
+.mobile-nav-
+{
   display: none;
 }
 
@@ -229,6 +230,13 @@ header {
 }
 
 .toggle-able {
+  display: none;
+  justify-content: center;
+  padding-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toggle-able2 {
   display: none;
   justify-content: center;
   padding-bottom: 10px;
@@ -562,6 +570,7 @@ header .img1 {
 
 .card__img {
   width: 100%;
+  
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border-radius: 15px;
