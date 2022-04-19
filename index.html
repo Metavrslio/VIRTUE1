@@ -25,8 +25,11 @@
         </style>
     
 </head>
+
 <body>
     
+    <div id="preloader"></div>
+
     <header class="primary-header flex">
         <div>
             <img class="logo" src="/images/vvs.png">
@@ -158,5 +161,16 @@
     <script src="/nav.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/custom.js"></script>
+
+
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none";
+        })
+    </script>
+
+
 </body>
 </html>
