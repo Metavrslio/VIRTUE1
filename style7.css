@@ -406,3 +406,9 @@ h1 {
 
 
 }
+
+@media only screen and (max-width: 768px) {
+  #preloader {
+    background-size: 20%;
+  }
+}
