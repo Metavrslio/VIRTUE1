@@ -395,3 +395,19 @@ h1 {
   -ms-transform: translate(-50%, -50%);
 }
 
+#preloader{
+  background: #000 url(images/circle-loader-gif-2.gif) no-repeat center center;
+  background-size: 9%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 1000000;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  #preloader {
+    background-size: 20%;
+  }
+}

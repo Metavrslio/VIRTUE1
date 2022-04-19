@@ -18,6 +18,9 @@
     <script src="./components/connectors.js"></script>
 </head>
 <body>
+
+    <div id="preloader"></div>
+
     <header>
         
         <img class="headerLogo" src="/images/banner2.jpeg">
@@ -164,7 +167,12 @@
         <img class="bottomlogo" src='/images/vvs.png'> 
         
         
-    
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
 
 </body>
 <script src="/components/main.js"></script>
